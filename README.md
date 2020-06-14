@@ -20,12 +20,12 @@ and run the app on your real device.
 
 Here is an example of the AR element made from The Solar System Scope's [texture!](https://www.solarsystemscope.com/textures/)
 
-![AR of the sun](assets/example.jpeg)
+![AR of the sun](https://github.com/igibliss00/ARDicee/blob/master/assets/example.jpeg)
 
 Used ARAnchor to track the surface that the object of interest would be resting, expressed in a grid form
 
-![grid from ARAnchor](assets/grid.jpeg)
+![grid from ARAnchor](https://github.com/igibliss00/ARDicee/blob/master/assets/grid.jpeg)
 
 Created a button to roll multiple dice at the same time in a randomized manner and another button to delete the dice
 
-![final dice](assets/final.jpeg)
+![final dice](https://github.com/igibliss00/ARDicee/blob/master/assets/final.jpeg)
