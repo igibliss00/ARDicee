@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				491698E3249661BD0087407E /* README.md */,
-				491698E5249666420087407E /* assets */,
 				491698B9249582030087407E /* ARDicee */,
 				491698CE249661110087407E /* ARDicee */,
 				491698B8249582030087407E /* Products */,
@@ -95,6 +94,7 @@
 		491698CE249661110087407E /* ARDicee */ = {
 			isa = PBXGroup;
 			children = (
+				491698E5249666420087407E /* assets */,
 				491698CF249661110087407E /* ARDicee.xcodeproj */,
 				491698D2249661110087407E /* ARDicee */,
 			);
