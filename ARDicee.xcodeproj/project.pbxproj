@@ -19,8 +19,10 @@
 		491698DF249661110087407E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491698D7249661110087407E /* Main.storyboard */; };
 		491698E0249661110087407E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 491698D9249661110087407E /* art.scnassets */; };
 		491698E1249661110087407E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491698DA249661110087407E /* AppDelegate.swift */; };
-		491698E2249661110087407E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 491698DB249661110087407E /* Info.plist */; };
 		491698E4249661BD0087407E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 491698E3249661BD0087407E /* README.md */; };
+		491698E7249666510087407E /* example.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 491698E6249666510087407E /* example.jpeg */; };
+		491698EA24969C0C0087407E /* grid.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 491698E824969C0C0087407E /* grid.jpeg */; };
+		491698EB24969C0C0087407E /* final.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 491698E924969C0C0087407E /* final.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		491698DA249661110087407E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		491698DB249661110087407E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491698E3249661BD0087407E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		491698E6249666510087407E /* example.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = example.jpeg; path = ../../Downloads/example.jpeg; sourceTree = "<group>"; };
+		491698E824969C0C0087407E /* grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grid.jpeg; path = ../../Downloads/grid.jpeg; sourceTree = "<group>"; };
+		491698E924969C0C0087407E /* final.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = final.jpeg; path = ../../Downloads/final.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				491698E3249661BD0087407E /* README.md */,
+				491698E5249666420087407E /* assets */,
 				491698B9249582030087407E /* ARDicee */,
 				491698CE249661110087407E /* ARDicee */,
 				491698B8249582030087407E /* Products */,
@@ -112,6 +118,16 @@
 				491698DB249661110087407E /* Info.plist */,
 			);
 			path = ARDicee;
+			sourceTree = "<group>";
+		};
+		491698E5249666420087407E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				491698E924969C0C0087407E /* final.jpeg */,
+				491698E824969C0C0087407E /* grid.jpeg */,
+				491698E6249666510087407E /* example.jpeg */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,16 +194,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491698EA24969C0C0087407E /* grid.jpeg in Resources */,
 				491698DF249661110087407E /* Main.storyboard in Resources */,
 				491698E0249661110087407E /* art.scnassets in Resources */,
 				491698E4249661BD0087407E /* README.md in Resources */,
-				491698E2249661110087407E /* Info.plist in Resources */,
+				491698E7249666510087407E /* example.jpeg in Resources */,
 				491698BD249582030087407E /* art.scnassets in Resources */,
 				491698C7249582040087407E /* LaunchScreen.storyboard in Resources */,
 				491698C4249582040087407E /* Assets.xcassets in Resources */,
 				491698DE249661110087407E /* LaunchScreen.storyboard in Resources */,
 				491698C2249582030087407E /* Main.storyboard in Resources */,
 				491698DD249661110087407E /* Assets.xcassets in Resources */,
+				491698EB24969C0C0087407E /* final.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RH2V33K5A;
 				INFOPLIST_FILE = ARDicee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RH2V33K5A;
 				INFOPLIST_FILE = ARDicee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
