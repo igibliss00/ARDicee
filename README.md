@@ -1,6 +1,6 @@
 # ARDicee
 
-An iOS app that demonstrates various augmented reality elements, both designed from scratch or imported from TurboSquid, using ARKit and SceneKit
+An iOS app that uses ARKit and SceneKit to roll multiple virtual dice on the real world surface tracked with ARAnkor 
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ and run the app on your real device.
 
 ## Example
 
-Here is an example of the AR element made from The Solar System Scope's [texture!](https://www.solarsystemscope.com/textures/)
+Here is an example of SCNSphere with the material diffuse from The Solar System Scope's [texture!](https://www.solarsystemscope.com/textures/)
 
 ![AR of the sun](https://github.com/igibliss00/ARDicee/blob/master/assets/example.jpeg)
 
